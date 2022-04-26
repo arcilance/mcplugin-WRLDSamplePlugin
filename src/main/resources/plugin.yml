@@ -1,0 +1,12 @@
+name: WRLDSamplePlugin
+version: '${project.version}'
+main: me.arcilance.mcplugins.wrldsampleplugin.WRLDSamplePlugin
+api-version: 1.17
+depend: ["WRLDPaymentsAPI"]
+commands:
+  buy:
+    usage: /buy [gold|diamond]
+    description: Buy some metal
+  sell:
+    usage: /sell [gold|diamond]
+    description: Sell some metal
